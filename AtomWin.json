@@ -19,7 +19,7 @@
           "IsHidden": false,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
-          "Name": "速度折线图✖CPU温度",
+          "Name": "速度折线图❎CPU温度",
           "OneWayHysteresis": false,
           "Points": [
             "50,32",
@@ -63,7 +63,7 @@
           "IsHidden": false,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
-          "Name": "速度折线图✖CPU温度",
+          "Name": "速度折线图❎CPU温度",
           "OneWayHysteresis": false,
           "Points": [
             "50,32",
@@ -107,7 +107,7 @@
           "IsHidden": false,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
-          "Name": "速度折线图✖CPU温度",
+          "Name": "速度折线图❎CPU温度",
           "OneWayHysteresis": false,
           "Points": [
             "50,32",
@@ -151,7 +151,7 @@
           "IsHidden": false,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
-          "Name": "速度折线图✖GPU温度",
+          "Name": "速度折线图❎GPU温度",
           "OneWayHysteresis": false,
           "Points": [
             "50,16",
@@ -272,7 +272,7 @@
         "IsHidden": false,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
-        "Name": "速度折线图✖CPU温度",
+        "Name": "速度折线图❎CPU温度",
         "OneWayHysteresis": false,
         "Points": [
           "50,32",
@@ -294,7 +294,7 @@
         "IsHidden": false,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
-        "Name": "速度折线图✖GPU温度",
+        "Name": "速度折线图❎GPU温度",
         "OneWayHysteresis": false,
         "Points": [
           "50,16",
