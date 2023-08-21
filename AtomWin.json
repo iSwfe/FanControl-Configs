@@ -5,89 +5,41 @@
       {
         "Enable": true,
         "ForceApply": false,
-        "Identifier": "/lpc/nct6798d/control/5",
+        "Identifier": "/lpc/nct6798d/control/6",
         "IsHidden": false,
         "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": {
-          "Identifier": "/lpc/nct6798d/fan/5",
-          "IsHidden": false,
-          "Name": "Fan #6",
-          "NickName": "CPU Fan (Water)"
-        },
+        "ManualControlValue": 32,
+        "MatchingFanSensor": null,
         "MinimumPercent": 0,
-        "Name": "Fan #6",
-        "NickName": "CPU Fan (Water)",
-        "SelectedCommandStepDown": 2.0,
-        "SelectedCommandStepUp": 2.0,
+        "Name": "Fan #7",
+        "NickName": "AIO_PUMP➡️水泵风扇",
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
           "IsHidden": false,
           "MaximumTemperature": 120,
-          "MinimumTemperature": 0,
-          "Name": "CPU Graph",
+          "MinimumTemperature": 20,
+          "Name": "速度折线图✖CPU温度",
           "OneWayHysteresis": false,
           "Points": [
-            "50,36",
-            "70,40",
-            "85,50",
-            "100,70"
+            "50,32",
+            "60,40",
+            "70,50",
+            "75,60",
+            "80.4,80"
           ],
-          "SelectedHysteresis": 5.0,
+          "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
           "SelectedTempSource": {
             "Identifier": "/intelcpu/0/temperature/14",
             "IsHidden": false,
             "Name": "Core Average",
-            "NickName": "Core Average"
+            "NickName": "CPU平均温度"
           }
         },
         "SelectedOffset": 0,
-        "SelectedStart": 36,
-        "SelectedStop": 36
-      },
-      {
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "NVApiWrapper/0-GP104-A/control/0",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": {
-          "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
-          "IsHidden": false,
-          "Name": "Fan 1 - NVIDIA GeForce GTX 1070 Ti",
-          "NickName": "GPU Fan (GTX 1070 Ti)"
-        },
-        "MinimumPercent": 0,
-        "Name": "Control 1 - NVIDIA GeForce GTX 1070 Ti",
-        "NickName": "GPU Fan (GTX 1070 Ti)",
-        "SelectedCommandStepDown": 2.0,
-        "SelectedCommandStepUp": 2.0,
-        "SelectedFanCurve": {
-          "IsHidden": false,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 0,
-          "Name": "GPU Graph",
-          "OneWayHysteresis": false,
-          "Points": [
-            "40,12",
-            "60,20",
-            "70,40",
-            "76,60",
-            "80,80"
-          ],
-          "SelectedHysteresis": 5.0,
-          "SelectedResponseTime": 1,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-GP104-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          }
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 10,
-        "SelectedStop": 10
+        "SelectedStart": 32,
+        "SelectedStop": 32
       },
       {
         "Enable": true,
@@ -100,27 +52,114 @@
           "Identifier": "/lpc/nct6798d/fan/1",
           "IsHidden": false,
           "Name": "Fan #2",
-          "NickName": "Case Fan"
+          "NickName": "CPU_FAN"
         },
         "MinimumPercent": 0,
         "Name": "Fan #2",
-        "NickName": "Case Fan",
-        "SelectedCommandStepDown": 2.0,
-        "SelectedCommandStepUp": 2.0,
+        "NickName": "CPU_FAN➡️冷排风扇x2",
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
           "IsHidden": false,
           "MaximumTemperature": 120,
-          "MinimumTemperature": 0,
-          "Name": "GPU Graph",
+          "MinimumTemperature": 20,
+          "Name": "速度折线图✖CPU温度",
           "OneWayHysteresis": false,
           "Points": [
-            "40,12",
-            "60,20",
-            "70,40",
-            "76,60",
+            "50,32",
+            "60,40",
+            "70,50",
+            "75,60",
+            "80.4,80"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/intelcpu/0/temperature/14",
+            "IsHidden": false,
+            "Name": "Core Average",
+            "NickName": "CPU平均温度"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 18,
+        "SelectedStop": 18
+      },
+      {
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MatchingFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/0",
+          "IsHidden": false,
+          "Name": "Fan #1",
+          "NickName": "CHA_FAN1"
+        },
+        "MinimumPercent": 0,
+        "Name": "Fan #1",
+        "NickName": "CHA_FAN1➡️机箱风扇x3",
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "速度折线图✖CPU温度",
+          "OneWayHysteresis": false,
+          "Points": [
+            "50,32",
+            "60,40",
+            "70,50",
+            "75,60",
+            "80.4,80"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/intelcpu/0/temperature/14",
+            "IsHidden": false,
+            "Name": "Core Average",
+            "NickName": "CPU平均温度"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 18,
+        "SelectedStop": 12
+      },
+      {
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-GP104-A/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 16,
+        "MatchingFanSensor": {
+          "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
+          "IsHidden": false,
+          "Name": "Fan 1 - NVIDIA GeForce GTX 1070 Ti",
+          "NickName": "NVIDIA GeForce GTX 1070 Ti 风扇"
+        },
+        "MinimumPercent": 0,
+        "Name": "Control 1 - NVIDIA GeForce GTX 1070 Ti",
+        "NickName": "NVIDIA GeForce GTX 1070 Ti 风扇",
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "速度折线图✖GPU温度",
+          "OneWayHysteresis": false,
+          "Points": [
+            "50,16",
+            "60,30",
+            "70,50",
             "80,80"
           ],
-          "SelectedHysteresis": 5.0,
+          "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
           "SelectedTempSource": {
             "Identifier": "NVApiWrapper/0-GP104-A/sensor/0",
@@ -130,30 +169,8 @@
           }
         },
         "SelectedOffset": 0,
-        "SelectedStart": 10,
-        "SelectedStop": 10
-      },
-      {
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6798d/control/0",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "Fan #1",
-        "NickName": "Fan #1",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "Low Flat",
-          "Percent": 10.0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
+        "SelectedStart": 16,
+        "SelectedStop": 16
       },
       {
         "Enable": true,
@@ -161,17 +178,44 @@
         "Identifier": "/lpc/nct6798d/control/2",
         "IsHidden": true,
         "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
+        "ManualControlValue": 13,
+        "MatchingFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/2",
+          "IsHidden": true,
+          "Name": "Fan #3",
+          "NickName": "CHA_FAN2"
+        },
         "MinimumPercent": 0,
         "Name": "Fan #3",
-        "NickName": "Fan #3",
+        "NickName": "CHA_FAN2➡️无",
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "Low Flat",
-          "Percent": 10.0
+          "IsHidden": true,
+          "Name": "速度固定直线：关闭",
+          "Percent": 0.0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 18,
+        "SelectedStop": 12
+      },
+      {
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/3",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 73,
+        "MatchingFanSensor": null,
+        "MinimumPercent": 0,
+        "Name": "Fan #4",
+        "NickName": "M.2_FAN➡️无",
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IsHidden": true,
+          "Name": "速度固定直线：关闭",
+          "Percent": 0.0
         },
         "SelectedOffset": 0,
         "SelectedStart": 0,
@@ -180,20 +224,20 @@
       {
         "Enable": true,
         "ForceApply": false,
-        "Identifier": "/lpc/nct6798d/control/3",
+        "Identifier": "/lpc/nct6798d/control/5",
         "IsHidden": true,
         "ManualControl": false,
-        "ManualControlValue": 50,
+        "ManualControlValue": 0,
         "MatchingFanSensor": null,
         "MinimumPercent": 0,
-        "Name": "Fan #4",
-        "NickName": "Fan #4",
+        "Name": "Fan #6",
+        "NickName": "W_PUMP+➡️无",
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "Low Flat",
-          "Percent": 10.0
+          "IsHidden": true,
+          "Name": "速度固定直线：关闭",
+          "Percent": 0.0
         },
         "SelectedOffset": 0,
         "SelectedStart": 0,
@@ -205,39 +249,17 @@
         "Identifier": "/lpc/nct6798d/control/4",
         "IsHidden": true,
         "ManualControl": false,
-        "ManualControlValue": 50,
+        "ManualControlValue": 8,
         "MatchingFanSensor": null,
         "MinimumPercent": 0,
         "Name": "Fan #5",
-        "NickName": "Fan #5",
+        "NickName": "EXT_FAN➡️无",
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "Low Flat",
-          "Percent": 10.0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6798d/control/6",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "Fan #7",
-        "NickName": "Fan #7",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "Low Flat",
-          "Percent": 10.0
+          "IsHidden": true,
+          "Name": "速度固定直线：关闭",
+          "Percent": 0.0
         },
         "SelectedOffset": 0,
         "SelectedStart": 0,
@@ -249,38 +271,38 @@
       {
         "IsHidden": false,
         "MaximumTemperature": 120,
-        "MinimumTemperature": 0,
-        "Name": "CPU Graph",
+        "MinimumTemperature": 20,
+        "Name": "速度折线图✖CPU温度",
         "OneWayHysteresis": false,
         "Points": [
-          "50,36",
-          "70,40",
-          "85,50",
-          "100,70"
+          "50,32",
+          "60,40",
+          "70,50",
+          "75,60",
+          "80.4,80"
         ],
-        "SelectedHysteresis": 5.0,
+        "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
           "Identifier": "/intelcpu/0/temperature/14",
           "IsHidden": false,
           "Name": "Core Average",
-          "NickName": "Core Average"
+          "NickName": "CPU平均温度"
         }
       },
       {
         "IsHidden": false,
         "MaximumTemperature": 120,
-        "MinimumTemperature": 0,
-        "Name": "GPU Graph",
+        "MinimumTemperature": 20,
+        "Name": "速度折线图✖GPU温度",
         "OneWayHysteresis": false,
         "Points": [
-          "40,12",
-          "60,20",
-          "70,40",
-          "76,60",
+          "50,16",
+          "60,30",
+          "70,50",
           "80,80"
         ],
-        "SelectedHysteresis": 5.0,
+        "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
           "Identifier": "NVApiWrapper/0-GP104-A/sensor/0",
@@ -290,63 +312,63 @@
         }
       },
       {
-        "IsHidden": false,
-        "Name": "Low Flat",
-        "Percent": 10.0
+        "IsHidden": true,
+        "Name": "速度固定直线：关闭",
+        "Percent": 0.0
       }
     ],
     "FanSensors": [
       {
-        "Identifier": "/lpc/nct6798d/fan/5",
+        "Identifier": "/lpc/nct6798d/fan/6",
         "IsHidden": false,
-        "Name": "Fan #6",
-        "NickName": "CPU Fan (Water)"
-      },
-      {
-        "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
-        "IsHidden": false,
-        "Name": "Fan 1 - NVIDIA GeForce GTX 1070 Ti",
-        "NickName": "GPU Fan (GTX 1070 Ti)"
+        "Name": "Fan #7",
+        "NickName": "AIO_PUMP"
       },
       {
         "Identifier": "/lpc/nct6798d/fan/1",
         "IsHidden": false,
         "Name": "Fan #2",
-        "NickName": "Case Fan"
+        "NickName": "CPU_FAN"
       },
       {
         "Identifier": "/lpc/nct6798d/fan/0",
         "IsHidden": false,
         "Name": "Fan #1",
-        "NickName": "Fan #1"
+        "NickName": "CHA_FAN1"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GP104-A/fan/0",
+        "IsHidden": false,
+        "Name": "Fan 1 - NVIDIA GeForce GTX 1070 Ti",
+        "NickName": "NVIDIA GeForce GTX 1070 Ti 风扇"
       },
       {
         "Identifier": "/lpc/nct6798d/fan/2",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Fan #3",
-        "NickName": "Fan #3"
+        "NickName": "CHA_FAN2"
       },
       {
         "Identifier": "/lpc/nct6798d/fan/3",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Fan #4",
-        "NickName": "Fan #4"
+        "NickName": "M.2_FAN"
       },
       {
-        "Identifier": "/lpc/nct6798d/fan/6",
-        "IsHidden": false,
-        "Name": "Fan #7",
-        "NickName": "Fan #7"
+        "Identifier": "/lpc/nct6798d/fan/5",
+        "IsHidden": true,
+        "Name": "Fan #6",
+        "NickName": "W_PUMP+"
       },
       {
         "Identifier": "/lpc/nct6798d/fan/4",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Fan #5",
-        "NickName": "Fan #5"
+        "NickName": "EXT_FAN"
       },
       {
         "Identifier": "/lpc/ec/fan/0",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "CPU Optional Fan",
         "NickName": "CPU Optional Fan"
       }
@@ -357,8 +379,15 @@
     "SecondaryColor": "#FF6654D8",
     "SelectedTheme": "Light",
     "ShowHiddenCards": false,
-    "SyncThemeWithWindows": false,
-    "TemperatureSensors": [],
+    "SyncThemeWithWindows": true,
+    "TemperatureSensors": [
+      {
+        "Identifier": "/intelcpu/0/temperature/14",
+        "IsHidden": false,
+        "Name": "Core Average",
+        "NickName": "CPU平均温度"
+      }
+    ],
     "TrayIconColor": "#FFFFFFFF",
     "TrayIcons": []
   },
@@ -366,11 +395,11 @@
     "DisabledPlugins": [],
     "DisableStorageSensors": true,
     "LibreHardwareMonitorSettings": {
-      "Controller": true,
+      "Controller": false,
       "CPU": true,
       "EmbeddedEC": true,
       "GPU": true,
-      "InpOut": true,
+      "InpOut": false,
       "Memory": false,
       "Motherboard": true,
       "PSU": false,
